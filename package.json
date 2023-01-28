@@ -1,9 +1,11 @@
 {
   "name": "@nexterias/prettier-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prettier configuration for NEXTERIAS",
   "main": ".prettierrc.json",
-  "files": ["./.prettierrc.json"],
+  "files": [
+    "./.prettierrc.json"
+  ],
   "scripts": {
     "format:check": "prettier -c .",
     "format": "prettier -w ."
