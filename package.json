@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NEXTERIAS/prettier-config.git"
+    "url": "git+https://github.com/nexterias/prettier-config.git"
   },
   "keywords": [
     "prettier"
@@ -20,9 +20,9 @@
   "author": "InkoHX <me@inkohx.dev>",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/NEXTERIAS/prettier-config/issues"
+    "url": "https://github.com/nexterias/prettier-config/issues"
   },
-  "homepage": "https://github.com/NEXTERIAS/prettier-config#readme",
+  "homepage": "https://github.com/nexterias/prettier-config#readme",
   "devDependencies": {
     "prettier": "^2.8.3"
   }
