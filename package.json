@@ -2,28 +2,31 @@
   "name": "@nexterias/prettier-config",
   "version": "1.0.1",
   "description": "Prettier configuration for NEXTERIAS",
-  "main": ".prettierrc.json",
-  "files": [
-    "./.prettierrc.json"
+  "keywords": [
+    "prettier"
   ],
-  "scripts": {
-    "format:check": "prettier -c .",
-    "format": "prettier -w ."
+  "homepage": "https://github.com/nexterias/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/nexterias/prettier-config/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nexterias/prettier-config.git"
   },
-  "keywords": [
-    "prettier"
-  ],
-  "author": "InkoHX <me@inkohx.dev>",
   "license": "WTFPL",
-  "bugs": {
-    "url": "https://github.com/nexterias/prettier-config/issues"
+  "author": "InkoHX <me@inkohx.dev>",
+  "main": ".prettierrc.json",
+  "files": [
+    "./.prettierrc.json"
+  ],
+  "scripts": {
+    "format": "prettier -w .",
+    "format:check": "prettier -c ."
   },
-  "homepage": "https://github.com/nexterias/prettier-config#readme",
+  "dependencies": {
+    "prettier-plugin-packagejson": "^2.4.5"
+  },
   "devDependencies": {
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.8"
   }
 }
